@@ -1,0 +1,44 @@
+21.06.2021_09:27:07 [CRITICAL] pybase._set_args  --  running <Z> fx [runSeq] - Number of arguments (2)
+21.06.2021_09:27:07 [INFO    ] app_env.get_env_vars  -- No env vars to load
+21.06.2021_09:27:07 [INFO    ] app_conf.load_app_config  -- Loading config file : C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\config\makeproject.cfg
+21.06.2021_09:27:07 [DEBUG   ] app_conf.load_app_config  -- Config File Variables ['configuracion', 'aplicativo', 'statement', 'script']
+21.06.2021_09:27:07 [DEBUG   ] app_conf.load_app_config  -- App Variables ['configuracion', 'aplicativo', 'statement', 'script']
+21.06.2021_09:27:07 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = configuracion --  config
+21.06.2021_09:27:07 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = aplicativo --  lib/apps
+21.06.2021_09:27:07 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = statement --  lib/statements
+21.06.2021_09:27:07 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = script --  scripts
+21.06.2021_09:27:14 [WARNING ] pybase.set_statement_file  --  statements file no exist, name:C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib\statements\makeproject.py
+21.06.2021_09:27:14 [INFO    ] pybase._execSteps  -- runStep = Z
+21.06.2021_09:27:16 [DEBUG   ] makeproject.creacion_archivo_contenido  -- creando archivo borrar_virtualvm.cfg en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\config .
+21.06.2021_09:27:16 [INFO    ] makeproject.creacion_archivo_contenido  -- El archivo borrar_virtualvm.cfg, fue creado exitosamente en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\config .
+21.06.2021_09:27:16 [DEBUG   ] makeproject.creacion_archivo_contenido  -- creando archivo borrar_virtualvm.py en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib/apps .
+21.06.2021_09:27:16 [INFO    ] makeproject.creacion_archivo_contenido  -- El archivo borrar_virtualvm.py, fue creado exitosamente en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib/apps .
+21.06.2021_09:27:16 [DEBUG   ] makeproject.creacion_archivo_contenido  -- creando archivo borrar_virtualvm.py en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib/statements .
+21.06.2021_09:27:16 [INFO    ] makeproject.creacion_archivo_contenido  -- El archivo borrar_virtualvm.py, fue creado exitosamente en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib/statements .
+21.06.2021_09:27:16 [INFO    ] netutils.make_folder  -- Directory C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\scripts\borrar_virtualvm Created 
+21.06.2021_09:27:16 [DEBUG   ] makeproject.creacion_archivo_contenido  -- creando archivo borrar_virtualvm_os_win.bat en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\scripts\borrar_virtualvm .
+21.06.2021_09:27:16 [INFO    ] makeproject.creacion_archivo_contenido  -- El archivo borrar_virtualvm_os_win.bat, fue creado exitosamente en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\scripts\borrar_virtualvm .
+21.06.2021_09:27:16 [INFO    ] pybase._execSteps  -- Z:opciones_creacion()	rc	= 0
+21.06.2021_09:27:16 [INFO    ] pybase.main  -- Completed running exec_steps rc = 0
+21.06.2021_09:29:29 [CRITICAL] pybase._set_args  --  running <Z> fx [runSeq] - Number of arguments (2)
+21.06.2021_09:29:29 [INFO    ] app_env.get_env_vars  -- No env vars to load
+21.06.2021_09:29:29 [INFO    ] app_conf.load_app_config  -- Loading config file : C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\config\makeproject.cfg
+21.06.2021_09:29:29 [DEBUG   ] app_conf.load_app_config  -- Config File Variables ['configuracion', 'aplicativo', 'statement', 'script']
+21.06.2021_09:29:29 [DEBUG   ] app_conf.load_app_config  -- App Variables ['configuracion', 'aplicativo', 'statement', 'script']
+21.06.2021_09:29:29 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = configuracion --  config
+21.06.2021_09:29:29 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = aplicativo --  lib/apps
+21.06.2021_09:29:29 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = statement --  lib/statements
+21.06.2021_09:29:29 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = script --  scripts
+21.06.2021_09:29:44 [WARNING ] pybase.set_statement_file  --  statements file no exist, name:C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib\statements\makeproject.py
+21.06.2021_09:29:44 [INFO    ] pybase._execSteps  -- runStep = Z
+21.06.2021_09:29:45 [DEBUG   ] makeproject.creacion_archivo_contenido  -- creando archivo virtualmachine.cfg en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\config .
+21.06.2021_09:29:45 [INFO    ] makeproject.creacion_archivo_contenido  -- El archivo virtualmachine.cfg, fue creado exitosamente en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\config .
+21.06.2021_09:29:45 [DEBUG   ] makeproject.creacion_archivo_contenido  -- creando archivo virtualmachine.py en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib/apps .
+21.06.2021_09:29:45 [INFO    ] makeproject.creacion_archivo_contenido  -- El archivo virtualmachine.py, fue creado exitosamente en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib/apps .
+21.06.2021_09:29:45 [DEBUG   ] makeproject.creacion_archivo_contenido  -- creando archivo virtualmachine.py en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib/statements .
+21.06.2021_09:29:45 [INFO    ] makeproject.creacion_archivo_contenido  -- El archivo virtualmachine.py, fue creado exitosamente en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib/statements .
+21.06.2021_09:29:45 [INFO    ] netutils.make_folder  -- Directory C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\scripts\virtualmachine Created 
+21.06.2021_09:29:45 [DEBUG   ] makeproject.creacion_archivo_contenido  -- creando archivo virtualmachine_os_win.bat en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\scripts\virtualmachine .
+21.06.2021_09:29:45 [INFO    ] makeproject.creacion_archivo_contenido  -- El archivo virtualmachine_os_win.bat, fue creado exitosamente en la ruta C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\scripts\virtualmachine .
+21.06.2021_09:29:45 [INFO    ] pybase._execSteps  -- Z:opciones_creacion()	rc	= 0
+21.06.2021_09:29:45 [INFO    ] pybase.main  -- Completed running exec_steps rc = 0

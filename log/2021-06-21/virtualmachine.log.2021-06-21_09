@@ -1,0 +1,10 @@
+21.06.2021_09:30:02 [CRITICAL] pybase._set_args  --  running <T>, 1> fx [runSeq] [runSeq2] - Number of arguments (3)
+21.06.2021_09:30:02 [INFO    ] app_env.get_env_vars  -- No env vars to load
+21.06.2021_09:30:02 [INFO    ] app_conf.load_app_config  -- Loading config file : C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\config\virtualmachine.cfg
+21.06.2021_09:30:02 [DEBUG   ] app_conf.load_app_config  -- Config File Variables ['variable1']
+21.06.2021_09:30:02 [DEBUG   ] app_conf.load_app_config  -- App Variables ['variable1']
+21.06.2021_09:30:02 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = variable1 --  ejemplo1
+21.06.2021_09:30:02 [INFO    ] pybase.set_statement_file  --  statements file exist, name:C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib\statements\virtualmachine.py
+21.06.2021_09:30:02 [INFO    ] pybase._execSteps  -- runStep = T
+21.06.2021_09:30:02 [INFO    ] pybase._execSteps  -- T:test()	rc	= 0
+21.06.2021_09:30:02 [INFO    ] pybase.main  -- Completed running exec_steps rc = 0

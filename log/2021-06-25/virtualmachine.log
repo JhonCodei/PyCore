@@ -1,0 +1,21 @@
+25.06.2021_09:00:41 [CRITICAL] pybase._set_args  --  running <X>, 1> fx [runSeq] [runSeq2] - Number of arguments (3)
+25.06.2021_09:00:41 [INFO    ] app_env.get_env_vars  -- No env vars to load
+25.06.2021_09:00:41 [INFO    ] app_conf.load_app_config  -- Loading config file : C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\config\virtualmachine.cfg
+25.06.2021_09:00:41 [DEBUG   ] app_conf.load_app_config  -- Config File Variables ['virtualizadorWIND', 'virtualizadorUNIX', 'nombre_maquina-1', 'accion-1', 'tipo-1', 'nombre_maquina-2', 'accion-2', 'tipo-2']
+25.06.2021_09:00:41 [DEBUG   ] app_conf.load_app_config  -- App Variables ['virtualizadorWIND', 'virtualizadorUNIX', 'nombre_maquina-1', 'accion-1', 'tipo-1']
+25.06.2021_09:00:41 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = virtualizadorWIND --  C:\Program Files\Oracle\VirtualBox\VBoxManage.exe
+25.06.2021_09:00:41 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = virtualizadorUNIX --  NO DEFINIDO
+25.06.2021_09:00:41 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = nombre_maquina-1 --  win_ser_2012R2
+25.06.2021_09:00:41 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = accion-1 --  i
+25.06.2021_09:00:41 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = tipo-1 --  headless
+25.06.2021_09:00:41 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = nombre_maquina-2 --  windows10_64_4ram
+25.06.2021_09:00:41 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = accion-2 --  i
+25.06.2021_09:00:41 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = tipo-2 --  headless
+25.06.2021_09:00:41 [INFO    ] pybase.set_statement_file  --  statements file exist, name:C:\Users\Programmer\Desktop\Projects\PYTHON\NATIVO\python_apps\lib\statements\virtualmachine.py
+25.06.2021_09:00:41 [INFO    ] pybase._execSteps  -- runStep = X
+25.06.2021_09:00:41 [INFO    ] virtualmachine.iniciar_maquina_virtual  -- Iniciando Maquina virtual win_ser_2012R2
+25.06.2021_09:00:41 [DEBUG   ] process.run_sync  -- cmd "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" startvm --type=headless win_ser_2012R2
+25.06.2021_09:00:47 [DEBUG   ] process.run_sync  -- rv=0 p.rc=0
+p.msg ======= b'Waiting for VM "win_ser_2012R2" to power on...\r\nVM "win_ser_2012R2" has been successfully started.\r\n' ======== 
+25.06.2021_09:00:47 [INFO    ] pybase._execSteps  -- X:iniciar_maquina_virtual()	rc	= 0
+25.06.2021_09:00:47 [INFO    ] pybase.main  -- Completed running exec_steps rc = 0
